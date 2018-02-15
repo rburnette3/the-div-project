@@ -84,3 +84,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-radius: 10px;
   margin: 25px;
 }
+
+/* line 26, ../sass/screen.scss */
+.has-class {
+  background-color: red;
+}
