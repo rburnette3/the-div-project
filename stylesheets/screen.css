@@ -74,14 +74,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  
 }
 
 
 /* line 14, ../sass/screen.scss */
 .div {
-  
   justify-content: center;
   display: flex;
   height: 200px;
@@ -91,13 +88,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: 25px;
 }
 
-/* line 26, ../sass/screen.scss */
-.has-class {
-  background-color: red;
-}
-
 h1 {
   text-align: center;
   font-size: 48px;
   margin-bottom: 30px;
+}
+
+#active_id {
+  height: 400px;
 }
