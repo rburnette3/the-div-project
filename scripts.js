@@ -28,8 +28,8 @@ function KeyCheck(e) {
     if (active_id < 1) active_id += 4;
     if (active_id > 4) active_id -= 4;
     Old = document.getElementById(old_id);
-    Old.style.background = 'initial' = "red";
+    Old.style.background = "none";
     New = document.getElementById(active_id);
     New.style.background = "blue";
-    document.getElementById('text').innerHTML = active_id;
+   
 };
